@@ -1,2 +1,2 @@
-# Example
-An example greeter plugin
+# Anti Grief
+Hide player attempts to grief with npcs or items
