@@ -113,7 +113,17 @@ public class AntigriefPlugin extends Plugin
 		{
 			NPC npc = (NPC) renderable;
 
-			if (npc.getId() == NpcID.KINGS_MESSENGER) {
+			//if (npc.getId() == NpcID.KINGS_MESSENGER) {
+			if (npc.getId() == NpcID.MESSENGER_11816) {
+				return !hideMessenger;
+			}
+			if (npc.getId() == NpcID.MESSENGER_11815) {
+				return !hideMessenger;
+			}
+			if (npc.getId() == NpcID.MESSENGER_11814) {
+				return !hideMessenger;
+			}
+			if (npc.getId() == NpcID.MESSENGER_11817) {
 				return !hideMessenger;
 			}
 
